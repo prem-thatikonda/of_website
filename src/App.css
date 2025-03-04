@@ -17,8 +17,35 @@
   height: 100%;
 }
 
+h1 {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
-h1{
-    font-size: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+}
+
+.loading-logo {
+  width: 120px;
+  animation: scaleAnimation 1.5s infinite alternate ease-in-out;
+}
+
+.loading-name {
+  width: 200px;
+  animation: scaleAnimation 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes scaleAnimation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
