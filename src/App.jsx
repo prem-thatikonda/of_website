@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const images = [
     { photo: "/man.gif", interval: 2000 },
-    { photo: "/photo.gif", interval: 1000 },
+    { photo: "/photo.gif", interval: 1500 },
     { photo: "/mom_beat.jpg" },
   ];
 
